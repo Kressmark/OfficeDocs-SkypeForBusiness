@@ -35,7 +35,7 @@ Currently, Advanced CQD and CQD are both available for use. Advanced CQD is avai
 ## Latest changes and updates
 
 
-The updated CQD (as of early November 2019) delivers a Near Real-Time CQD dashboard. CQD data is now available on average in 30 minutes (in comparison to the previous CQD which is on average of 24 hours).  The updated CQD uses End User Identifiable Information (EUII), giving admins the ability to drill down and zoom in to the user level. There is also report interactivity to support new scenarios such as:
+The updated Advanced CQD (as of early November 2019) delivers a Near Real-Time CQD dashboard. CQD data is now available on average in 30 minutes (in comparison to the previous CQD which is on average of 24 hours).  The updated CQD uses End User Identifiable Information (EUII), giving admins the ability to drill down and zoom in to the user level. There is also report interactivity to support new scenarios such as:
 
 
 - Call Quality by Region:
@@ -52,7 +52,7 @@ The updated CQD (as of early November 2019) delivers a Near Real-Time CQD dashbo
   - specific subnet
   - impacted user or users
 
-- Rate My Call (RMC) by Region: from month-by-region aggregated down to specific locations to users who provide low RMC ratings. CQD v3 also includes verbatim feedback.
+- Rate My Call (RMC) by Region: from month-by-region aggregated down to specific locations to users who provide low RMC ratings. Advanced CQD also includes verbatim feedback.
 - Helpdesk: available for a specific user on P2P calls or Meetings, or for all participants and call details. Helps identify possible system issues based on network location, devices, or firmware.  
 - Client Versions: View the Session and Users counts for each Client Version, or drill down to User names for each client version. Pre-built filters for Product and Client Type help focus the versions to specific clients.
 - Endpoints: Shows Machine Endpoints mapped to Make/Model of the PC/Mac. Shows aggregated quality by Make/Model. Mapping data is uploaded similar to Building data.
@@ -208,7 +208,7 @@ The four tabs include:
 - **Voice Quality SLA** — provides information about calls that are included in the Skype for Business Online Voice Quality SLA.
 
 > [!NOTE]
-> CQD Version 3 works with Microsoft Teams, Skype for Business Online, and Skype for Business Server. To use CQD with Skype for Business Server 2019, you will have to [Configure Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector). See [Plan Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-data-connector) before you start.
+> Advanced CQD works with Microsoft Teams, Skype for Business Online, and Skype for Business Server. To use CQD with Skype for Business Server 2019, you will have to [Configure Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/configure-call-data-connector). See [Plan Call Data Connector](https://docs.microsoft.com/skypeforbusiness/hybrid/plan-call-data-connector) before you start.
 
 - Call Quality by Region:
 
@@ -225,7 +225,7 @@ The four tabs include:
   - specific subnet
   - impacted user or users
 
-- Rate My Call (RMC) by Region: from month-by-region aggregated down to specific locations to users who provide low RMC ratings. CQD v3 also includes verbatim feedback.
+- Rate My Call (RMC) by Region: from month-by-region aggregated down to specific locations to users who provide low RMC ratings. Advanced CQD also includes verbatim feedback.
 - Helpdesk: available for a specific user on P2P calls or Meetings, or for all participants and call details. Helps identify possible system issues based on network location, devices, or firmware.  
 - Client Versions: View the Session and Users counts for each Client Version, or drill down to User names for each client version. Pre-built filters for Product and Client Type help focus the versions to specific clients.
 - Endpoints: Shows Machine Endpoints mapped to Make/Model of the PC/Mac. Shows aggregated quality by Make/Model. Mapping data is uploaded similar to Building data.
@@ -405,15 +405,15 @@ From the pull-down list of reports at the top of the screen displayed at login \
 
 ## Frequently Asked Questions
 
-### Why does my CQD v2 report data look different than the CQD v3 report data? 
+### Why does my CQD v2 report data look different than the Advanced CQD report data? 
 
-If you see data differences between CQD v2 and v3, make sure that data comparison or validation is done on an 'apples-to-apples'  and narrow level, not an aggregated level. For example, if you filter both reports for MSIT ‘Building 30' WiFi Teams Desktop client data, the Percentage of Poor Quality should be the same between v2 and v3.
+If you see data differences between CQD v2 and Advanced CQD, make sure that data comparison or validation is done on an 'apples-to-apples'  and narrow level, not an aggregated level. For example, if you filter both reports for MSIT ‘Building 30' WiFi Teams Desktop client data, the Percentage of Poor Quality should be the same between v2 and v3.
 
-CQD v2 and CQD v3 have different total counts since CQD v3 has new scenarios not present in CQD v2. Summary Total or Aggregated all-up numbers with no filters are expected to be different.  
+CQD v2 and Advanced CQD have different total counts since Advanced CQD has new scenarios not present in CQD v2. Summary Total or Aggregated all-up numbers with no filters are expected to be different.  
 
-If the usage scenario includes Skype for Business Server 2019 calls, CQD v3 data includes Skype Bot calls (auto attendant, CVI, Virtual Desktop Interface), Live Events, and PSTN calls. CQD v2 does not use this data. (CQD v3 requires Skype for Business Server 2019 with cloud data connector configured.)
+If the usage scenario includes Skype for Business Server 2019 calls, Advanced CQD data includes Skype Bot calls (auto attendant, CVI, Virtual Desktop Interface), Live Events, and PSTN calls. CQD v2 does not use this data. (Advanced CQD requires Skype for Business Server 2019 with cloud data connector configured.)
 
-For instance, if you see 200,000 audio streams with 5000 failures in a CQD v2 Summary Report it would not be unusual to see 300,000 audio streams with 5500 failures (the difference can be due to Skype for Business Server 2019 calls, CVI calls, PSTN calls, and so on) in a CQD v3 Summary report.
+For instance, if you see 200,000 audio streams with 5000 failures in a CQD v2 Summary Report it would not be unusual to see 300,000 audio streams with 5500 failures (the difference can be due to Skype for Business Server 2019 calls, CVI calls, PSTN calls, and so on) in a Advanced CQD Summary report.
 
 To disambiguate unexpected differences, look at more than one breakdown of the overall data. Filter the data by one or more of the following parameters:
 
@@ -421,7 +421,7 @@ To disambiguate unexpected differences, look at more than one breakdown of the o
 - First Product
 - Second Product
 
-### Other expected differences between CQD v2 and CQD v3
+### Other expected differences between CQD v2 and Advanced CQD
 
 There are several Quality and Reliability improvements in Teams but not Skype for Business Online:
 
