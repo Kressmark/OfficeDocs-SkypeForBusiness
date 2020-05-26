@@ -40,7 +40,7 @@ Shifts is available in all Enterprise SKUs where Teams is available.
 
 ## Location of Shifts data
 
-Shifts data is currently stored in Azure in data centers in North America, Western Europe, and Asia Pacific. For more information about where data is stored, see [Where is my data](http://o365datacentermap.azurewebsites.net/)?
+Shifts data is currently stored in different locations depending on the country, go to Microsoft 365 data locations for details.  For more information about where data is stored, see [Where is my data](http://o365datacentermap.azurewebsites.net/)?
 
 ## Set up Shifts
 
